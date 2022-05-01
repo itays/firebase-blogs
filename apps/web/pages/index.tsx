@@ -1,10 +1,9 @@
-import { Button } from "ui";
+import Link from "next/link";
 
-export default function Web() {
+export default function Home() {
   return (
     <div>
-      <h1>Web</h1>
-      <Button />
+      <Link href="/itays">Itay's profile</Link>
     </div>
   );
 }
